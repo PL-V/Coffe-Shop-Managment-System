@@ -10,3 +10,8 @@
 # Shop Interface
 
 ![CoffeShop](/docs/menu.PNG)
+
+
+# Billing Interface
+
+![CoffeShop](/docs/facturation.PNG)
