@@ -5,3 +5,8 @@
 # Login Interface
 
 ![CoffeShop](/docs/login.PNG)
+
+
+# Shop Interface
+
+![CoffeShop](/docs/menu.PNG)
