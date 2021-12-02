@@ -2,6 +2,6 @@
 
 **Coffe Shop System Managment written in Python for managing your coffe shop.**
 
-# Login interface
+# Login Interface
 
-![CoffeShop](/docs/login.png)
+![CoffeShop](/docs/login.PNG)
