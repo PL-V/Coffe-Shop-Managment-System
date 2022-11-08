@@ -6,7 +6,7 @@ from client import *
 
 
 
-con = sqlite3.connect("C:/Users/TAWFIK/Desktop/MASTER DSBD/PYTHON/Mini-Projet/coffee.db")
+con = sqlite3.connect("./coffee.db")
 print(con)
 cur=con.cursor()
 
@@ -35,11 +35,11 @@ def Login(fenetre,Username,Password):
  
 
     # create and locate background and icon :
-fenetre.background = PhotoImage(file='C:/Users/TAWFIK/Desktop/MASTER DSBD/PYTHON/Mini-Projet/backgrounds/first_screen_background.png')
+fenetre.background = PhotoImage(file='./backgrounds/first_screen_background.png')
 fenetre.background_label = Label(fenetre, image=fenetre.background)
 fenetre.background_label.pack()
 
-fenetre.icon = PhotoImage(file='C:/Users/TAWFIK/Desktop/MASTER DSBD/PYTHON/Mini-Projet/icons/login.png')
+fenetre.icon = PhotoImage(file='./icons/login.png')
 fenetre.login_icon = Label(fenetre, image=fenetre.icon)
 fenetre.login_icon.place(x=300, y=25)
 
